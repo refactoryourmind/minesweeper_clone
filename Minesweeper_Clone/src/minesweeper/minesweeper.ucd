@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="minesweeper2" size="1264,663" id="minesweeper" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204D696E65737765657065725F436C6F6E65">
+  <children xsi:type="editmodel:ClassEditModel" name="MinePanel" location="480,34" size="363,445" id="minesweeper/MinePanel" runTimeClassModel="shallowPopulate(),myNumberMines,myCells2D,setNumberMines(I),getCellAt(II),getSizeX(),decrementSafeCellsUnrevealed(),deepPopulate(II),initialize(III),mySizeX,mySizeY,setSizeX(I),MinePanel(III),initialize(II),MinePanel(),setGameOver(),setSizeY(I),setVictory(),mySafeCellsUnrevealed,myGrid,getSizeY(),getSafeCellsUnrevealed()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="myCells2D" id="minesweeper/MinePanel#myCells2D"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myGrid" id="minesweeper/MinePanel#myGrid"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myNumberMines" id="minesweeper/MinePanel#myNumberMines"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySafeCellsUnrevealed" id="minesweeper/MinePanel#mySafeCellsUnrevealed"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySizeX" id="minesweeper/MinePanel#mySizeX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySizeY" id="minesweeper/MinePanel#mySizeY"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="182,288">
+      <children xsi:type="editmodel:MethodEditModel" name="MinePanel" id="minesweeper/MinePanel#MinePanel(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MinePanel" id="minesweeper/MinePanel#MinePanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="decrementSafeCellsUnrevealed" id="minesweeper/MinePanel#decrementSafeCellsUnrevealed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deepPopulate" id="minesweeper/MinePanel#deepPopulate(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellAt" id="minesweeper/MinePanel#getCellAt(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSafeCellsUnrevealed" id="minesweeper/MinePanel#getSafeCellsUnrevealed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSizeX" id="minesweeper/MinePanel#getSizeX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSizeY" id="minesweeper/MinePanel#getSizeY()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="minesweeper/MinePanel#initialize(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="minesweeper/MinePanel#initialize(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGameOver" id="minesweeper/MinePanel#setGameOver()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNumberMines" id="minesweeper/MinePanel#setNumberMines(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSizeX" id="minesweeper/MinePanel#setSizeX(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSizeY" id="minesweeper/MinePanel#setSizeY(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVictory" id="minesweeper/MinePanel#setVictory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="shallowPopulate" id="minesweeper/MinePanel#shallowPopulate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Minesweeper" location="846,45" size="447,391" id="minesweeper/Minesweeper" runTimeClassModel="addItems(III),main([Ljava.lang.String;),myBottomFiller,myNumMinesLabel,mySizeXField,restartGame(),Minesweeper(),myNumMinesField,mySmallHorizFiller,myFrame,myGamefield,addItems(),mySizeYLabel,myLargeHorizFiller,myConfigRowPanel,createAndShowGUI(),myNewGameButton,mySizeYField,mySizeXLabel">
+    <children xsi:type="editmodel:CompartmentEditModel" size="180,234">
+      <children xsi:type="editmodel:AttributeEditModel" name="myBottomFiller" id="minesweeper/Minesweeper#myBottomFiller"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myConfigRowPanel" id="minesweeper/Minesweeper#myConfigRowPanel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myFrame" id="minesweeper/Minesweeper#myFrame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myGamefield" id="minesweeper/Minesweeper#myGamefield"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myLargeHorizFiller" id="minesweeper/Minesweeper#myLargeHorizFiller"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myNewGameButton" id="minesweeper/Minesweeper#myNewGameButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myNumMinesField" id="minesweeper/Minesweeper#myNumMinesField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myNumMinesLabel" id="minesweeper/Minesweeper#myNumMinesLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySizeXField" id="minesweeper/Minesweeper#mySizeXField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySizeXLabel" id="minesweeper/Minesweeper#mySizeXLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySizeYField" id="minesweeper/Minesweeper#mySizeYField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySizeYLabel" id="minesweeper/Minesweeper#mySizeYLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mySmallHorizFiller" location="23,250" id="minesweeper/Minesweeper#mySmallHorizFiller"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Minesweeper" id="minesweeper/Minesweeper#Minesweeper()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addItems" id="minesweeper/Minesweeper#addItems(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addItems" id="minesweeper/Minesweeper#addItems()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createAndShowGUI" id="minesweeper/Minesweeper#createAndShowGUI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="minesweeper/Minesweeper#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="restartGame" id="minesweeper/Minesweeper#restartGame()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MinesweeperApplet" location="1056,478" size="168,67" id="minesweeper/MinesweeperApplet" runTimeClassModel="init()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="43,18">
+      <children xsi:type="editmodel:MethodEditModel" name="init" id="minesweeper/MinesweeperApplet#init()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ResetButton" location="1005,586" size="269,103" id="minesweeper/ResetButton" runTimeClassModel="myParentGame,actionPerformed(Ljava.awt.event.ActionEvent;),ResetButton(Lminesweeper.Minesweeper;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="myParentGame" id="minesweeper/ResetButton#myParentGame"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ResetButton" id="minesweeper/ResetButton#ResetButton(Lminesweeper.Minesweeper;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="minesweeper/ResetButton#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SafeCell" location="510,595" size="380,85" id="minesweeper/SafeCell" runTimeClassModel="reveal(),SafeCell(Lminesweeper.MinePanel;II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,36">
+      <children xsi:type="editmodel:MethodEditModel" name="SafeCell" id="minesweeper/SafeCell#SafeCell(Lminesweeper.MinePanel;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reveal" id="minesweeper/SafeCell#reveal()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.0" autoLocated="true" id="minesweeper/FirstCell&lt;-minesweeper/SafeCell" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="187,491" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MineCell" location="30,586" size="379,103" id="minesweeper/MineCell" runTimeClassModel="reveal(),MineCell(Lminesweeper.MinePanel;II),myExplodeIcon">
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="myExplodeIcon" id="minesweeper/MineCell#myExplodeIcon"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MineCell" id="minesweeper/MineCell#MineCell(Lminesweeper.MinePanel;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reveal" id="minesweeper/MineCell#reveal()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="minesweeper/FirstCell&lt;-minesweeper/MineCell" source="//@children.5" target="//@children.4/@sourceConnections.0" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="FirstCell" location="75,34" size="378,492" id="minesweeper/FirstCell" runTimeClassModel="myFlaggedIcon,myParentGame,FirstCell(Lminesweeper.MinePanel;II),myRevealed,myPosY,mouseEntered(Ljava.awt.event.MouseEvent;),mouseClicked(Ljava.awt.event.MouseEvent;),mouseExited(Ljava.awt.event.MouseEvent;),myPosX,reveal(),createImage(Ljava.lang.String;Ljava.lang.String;),minesweeper.FirstCell.Flags,getIsRevealed(),myFlag,mousePressed(Ljava.awt.event.MouseEvent;),mouseover,flag(),mouseReleased(Ljava.awt.event.MouseEvent;),unflag()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="146,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="mouseover" id="minesweeper/FirstCell#mouseover"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myFlag" id="minesweeper/FirstCell#myFlag"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myFlaggedIcon" id="minesweeper/FirstCell#myFlaggedIcon"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myParentGame" id="minesweeper/FirstCell#myParentGame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myPosX" id="minesweeper/FirstCell#myPosX"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myPosY" id="minesweeper/FirstCell#myPosY"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="myRevealed" id="minesweeper/FirstCell#myRevealed"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,198">
+      <children xsi:type="editmodel:MethodEditModel" name="FirstCell" id="minesweeper/FirstCell#FirstCell(Lminesweeper.MinePanel;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createImage" id="minesweeper/FirstCell#createImage(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flag" id="minesweeper/FirstCell#flag()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIsRevealed" id="minesweeper/FirstCell#getIsRevealed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseClicked" id="minesweeper/FirstCell#mouseClicked(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseEntered" id="minesweeper/FirstCell#mouseEntered(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="minesweeper/FirstCell#mouseExited(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="minesweeper/FirstCell#mousePressed(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseReleased" id="minesweeper/FirstCell#mouseReleased(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reveal" id="minesweeper/FirstCell#reveal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unflag" id="minesweeper/FirstCell#unflag()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,109">
+      <children xsi:type="editmodel:EnumerationEditModel" name="Flags" size="94,107" id="minesweeper/FirstCell$Flags" runTimeClassModel="NONE%,QUESTION%,FLAGGED%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="70,54">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="FLAGGED" id="minesweeper/FirstCell$Flags#FLAGGED%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="QUESTION" id="minesweeper/FirstCell$Flags#QUESTION%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NONE" id="minesweeper/FirstCell$Flags#NONE%"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
